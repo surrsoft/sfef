@@ -1,0 +1,11 @@
+
+// ---
+-- Запуск клиента, из корня проекта:
+npm run server
+
+-- Запуск сервера, из корня проекта, работа на порту 3818:
+node -r esm src/api/server.js
+
+старое {{
+json-server -c ./src/api/config.json ./src/api/db.json
+}}

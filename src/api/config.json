@@ -1,0 +1,6 @@
+{
+  "port": 3818,
+  "middlewares": [
+    "./src/api/mdw.js"
+  ]
+}
