@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Create new card</h1>
+        <h1>Edit card</h1>
         <form v-on:submit.prevent="onSubmit">
             <label> Title:
                 <input type="text" v-model="title">
@@ -11,7 +11,7 @@
             <label> Body:
                 <input type="text" v-model="body">
             </label>
-            <label> Url:
+            <label> URL:
                 <input type="text" v-model="url">
             </label>
             <button type="submit">Save</button>
@@ -20,44 +20,55 @@
 </template>
 
 <script>
-  import { trim } from 'lodash';
-  import CardsApi from '../CardsApi';
-  import c from '../consts';
+  import CardsApi from "../CardsApi";
+  import c from "../consts";
+  import { get } from 'lodash';
 
   export default {
-    props: ['isEdit', 'card'],
     data() {
       return {
         title: null,
         comm: null,
         body: null,
         url: null,
-        cardId: -1
+        cardId: -1,
+        card: null,
       }
     },
-    created() {
-      console.log('!!-!!-!! this.$route.params {200715113230}\n', this.$route.params); // del+
+    async created() {
       this.cardId = this.$route.params.id;
+      console.log('!!-!!-!! this.cardId {200715190044}\n', this.cardId); // del+
+      // ---
+      const r = await CardsApi.cardGet(this.cardId);
+      console.log('!!-!!-!! r {200715213153}\n', r); // del+
+      if (r.errorMessage) {
+        this.$toast.open({ ...c.other.toastOj, message: r.errorMessage, type: 'error' });
+      } else {
+        this.card = get(r, 'data');
+        this.title = get(r, 'data.title');
+        this.comm = get(r, 'data.comm');
+        this.body = get(r, 'data.body');
+        this.url = get(r, 'data.url');
+      }
     },
     methods: {
       onSubmit() {
-        console.log('submit', this.title) // del
-        const card = {
-          title: trim(this.title),
-          comm: trim(this.comm),
-          body: trim(this.body),
-          url: trim(this.url),
+        const cardCurr = {
+          id: this.card.id,
+          title: this.title,
+          comm: this.comm,
+          body: this.body,
+          url: this.url
         }
-        CardsApi.cardCreate(card)
+        CardsApi.cardUpdate(cardCurr)
           .then(r => {
-            console.log('!!-!!-!! r {200713190435}\n', r); // del+
             if (r.data) {
-              this.$toast.open({ ...c.other.toastOj, message: 'created' });
+              this.$toast.open({ ...c.other.toastOj, message: 'updated' });
             } else {
               this.$toast.open({ ...c.other.toastOj, message: r.errorMessage, type: 'error' });
             }
           })
-      },
+      }
     }
   }
 </script>

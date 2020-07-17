@@ -5,6 +5,7 @@ export default {
     cardAddUrl: 'http://localhost:3818/cardadd'
   },
   other: {
+    cardsOnPage: 5,
     toastOj: {
       duration: 3000,
       position: 'top-right'

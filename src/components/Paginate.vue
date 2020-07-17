@@ -8,7 +8,6 @@
                 aria-controls="my-table"
                 align="center"
         ></b-pagination>
-
     </div>
 </template>
 

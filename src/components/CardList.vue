@@ -10,6 +10,7 @@
             <Card
                     v-bind:card="card"
                     v-on:card-remove="cardRemoveHandle0"
+                    v-on:card-edit="cardEditHandle"
             />
         </div>
     </div>
@@ -35,8 +36,12 @@
       cardRemoveHandle0(id) {
         this.$emit('card-remove', id)
       },
-      pagPageChangeHandle(pageNum){
+      pagPageChangeHandle(pageNum) {
         this.$emit('pag-page-change', pageNum);
+      },
+      cardEditHandle(id) {
+        console.log(`!!-!!-!! -> cardEditHandle(); id [${id}]; {200715075430}:${Date.now()}`); // del+
+        this.$router.push('/cardedit/'+id);
       }
     }
   }

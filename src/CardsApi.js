@@ -1,5 +1,4 @@
-import consts from './consts';
-import path from 'path';
+import c from './consts';
 
 function Resp(data = null, errorMessage = null, resultCode = 0) {
   this.data = data;
@@ -44,10 +43,32 @@ function wrap(promise, errInfo) {
 export default {
   // return Promise with JSON cards
   cardsAllGet() {
-    return fetch(consts.api.cardsUrl)
+    return fetch(c.api.cardsUrl)
       .then(r => {
         return r.json()
       })
+  },
+
+  async cardsAllCountGet() {
+    console.log(`!!-!!-!! -> cardsAllCountGet() {200717202123}:${Date.now()}`); // del+
+    const url = `${c.api.cardsUrl}?_start=1&_limit=1`;
+    const r = await wrap(fetch(url));
+    if (!r.errorMessage) {
+      return { count: r.resultCode, errorMessage: null }
+    } else {
+      return { count: 0, errorMessage: r.errorMessage }
+    }
+  },
+
+  // number - 1, 2, ...
+  cardByNumberGet(number) {
+    const url = `${c.api.cardsUrl}?_start=${number}&_limit=1`;
+    return wrap(fetch(url));
+  },
+
+  cardGet(id) {
+    console.log(`!!-!!-!! -> cardByIdGet() {200717173200}:${Date.now()}`); // del+
+    return wrap(fetch(c.api.cardsUrl + '/' + id));
   },
 
   cardsDiapGet(page, perPage) {
@@ -55,14 +76,14 @@ export default {
     console.log('!!-!!-!! 020 page {200714211405}\n', page); // del+
     console.log('!!-!!-!! 030 perPage {200714211412}\n', perPage); // del+
     // ---
-    const url = `${consts.api.cardsUrl}?_page=${page}&_limit=${perPage}`;
+    const url = `${c.api.cardsUrl}?_page=${page}&_limit=${perPage}`;
     console.log('!!-!!-!! url {200714211909}\n', url); // del+
     return wrap(fetch(url));
   },
 
   // create new card
   cardCreate(card) {
-    const r = fetch(consts.api.cardsUrl, {
+    const r = fetch(c.api.cardsUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -72,9 +93,22 @@ export default {
     return wrap(r);
   },
 
+  cardUpdate(card) {
+    const url = c.api.cardsUrl + '/' + card.id;
+    console.log('!!-!!-!! 010 url {200715214513}\n', url); // del+
+    console.log('!!-!!-!! card {200715215111}\n', card); // del+
+    return wrap(fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(card)
+    }))
+  },
+
   // return promise
   cardDelete(id) {
-    const url = consts.api.cardsUrl + '/' + id;
+    const url = c.api.cardsUrl + '/' + id;
     console.log('!!-!!-!! url {200714101027}\n', url); // del+
     const r = fetch(url, {
       method: 'DELETE'

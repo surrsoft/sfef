@@ -12,12 +12,20 @@ export default new Router({
       component: Home
     },
     {
-      path: '/cards',
+      path: '/cards/:pageNum',
       component: () => import('./views/Cards')
     },
     {
       path: '/cardadd',
       component: () => import('./views/CardAdd')
+    },
+    {
+      path: '/cardedit/:id',
+      component: () => import('./views/CardEdit')
+    },
+    {
+      path: '/cardRandom',
+      component: () => import('./views/CardRandom')
     }
   ]
 })
