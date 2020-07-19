@@ -3,14 +3,14 @@
     {
       "id": 19,
       "title": "Российская газета",
-      "body": "body",
+      "body": "body1",
       "url": "https://rg.ru"
     },
     {
       "id": 23,
       "title": "Коммерсант",
-      "comm": "",
-      "body": "",
+      "comm": "comment",
+      "body": "body",
       "url": "https://www.kommersant.ru/"
     },
     {
@@ -31,38 +31,43 @@
       "id": 44,
       "title": "dev.to",
       "comm": "{en} вокруг IT",
-      "body": "",
+      "body": "body",
       "url": "https://dev.to/"
     },
     {
-      "title": "hh1",
+      "id": 45,
+      "title": "РИА Новости",
       "comm": "",
       "body": "",
-      "id": 45
+      "url": "https://ria.ru/"
     },
     {
-      "title": "hh2",
+      "id": 46,
+      "title": "Euronews",
       "comm": "",
       "body": "",
-      "id": 46
+      "url": "https://ru.euronews.com/"
     },
     {
-      "title": "hh3",
+      "id": 47,
+      "title": "РБК",
       "comm": "",
       "body": "",
-      "id": 47
+      "url": "https://www.rbc.ru/"
     },
     {
-      "title": "hh4",
+      "id": 48,
+      "title": "Mediametrics",
       "comm": "",
       "body": "",
-      "id": 48
+      "url": "https://mediametrics.ru/rating/ru/online.html"
     },
     {
-      "title": "hh5",
+      "id": 49,
+      "title": "Regnum",
       "comm": "",
       "body": "",
-      "id": 49
+      "url": "https://regnum.ru/"
     },
     {
       "id": 52,
@@ -72,23 +77,305 @@
       "url": "https://novayagazeta.ru/"
     },
     {
-      "title": "hh9",
+      "id": 53,
+      "title": "itWeek",
       "comm": "",
       "body": "",
-      "id": 53
+      "url": "https://www.itweek.ru/"
     },
     {
-      "title": "hh10",
-      "comm": "",
+      "id": 54,
+      "title": "pro-prof.com",
+      "comm": "блог программиста",
       "body": "",
-      "id": 54
+      "url": "https://pro-prof.com/"
     },
     {
-      "title": "hey",
+      "id": 55,
+      "title": "jewish.ru",
       "comm": "",
       "body": "",
-      "url": "",
-      "id": 55
+      "url": "https://jewish.ru/"
+    },
+    {
+      "title": "Google Trends",
+      "comm": "",
+      "body": "",
+      "url": "https://trends.google.ru/trends/trendingsearches/daily?geo=RU",
+      "id": 56
+    },
+    {
+      "title": "Forbes",
+      "comm": "",
+      "body": "",
+      "url": "https://www.forbes.ru/",
+      "id": 57
+    },
+    {
+      "title": "Ведомости",
+      "comm": "",
+      "body": "",
+      "url": "https://www.vedomosti.ru/",
+      "id": 58
+    },
+    {
+      "title": "Новые Известия",
+      "comm": "",
+      "body": "",
+      "url": "https://newizv.ru/",
+      "id": 59
+    },
+    {
+      "title": "Cosmopolitan",
+      "comm": "",
+      "body": "",
+      "url": "https://www.cosmo.ru/",
+      "id": 60
+    },
+    {
+      "id": 61,
+      "title": "\"Поиск\"",
+      "comm": "сайт",
+      "body": "",
+      "url": "https://www.poisknews.ru/"
+    },
+    {
+      "title": "КтоНаНовенького",
+      "comm": "",
+      "body": "",
+      "url": "https://ktonanovenkogo.ru/",
+      "id": 62
+    },
+    {
+      "title": "Делягин.ру",
+      "comm": "",
+      "body": "",
+      "url": "https://delyagin.ru/",
+      "id": 63
+    },
+    {
+      "title": "Proshloe",
+      "comm": "",
+      "body": "",
+      "url": "https://proshloe.com/",
+      "id": 64
+    },
+    {
+      "title": "The Bell",
+      "comm": "",
+      "body": "",
+      "url": "https://thebell.io/",
+      "id": 65
+    },
+    {
+      "title": "Стихи.ру",
+      "comm": "",
+      "body": "",
+      "url": "https://stihi.ru/",
+      "id": 66
+    },
+    {
+      "title": "AndroidDevPodcast",
+      "comm": "",
+      "body": "",
+      "url": "https://androiddev.apptractor.ru/",
+      "id": 67
+    },
+    {
+      "title": "Правда Гомель",
+      "comm": "",
+      "body": "",
+      "url": "https://gp.by/",
+      "id": 68
+    },
+    {
+      "title": "Сильные Новости",
+      "comm": "Гомель",
+      "body": "",
+      "url": "https://gomel.today/",
+      "id": 69
+    },
+    {
+      "title": "UDF.by",
+      "comm": "",
+      "body": "",
+      "url": "https://udf.by/",
+      "id": 70
+    },
+    {
+      "title": "OpenNet",
+      "comm": "",
+      "body": "",
+      "url": "https://www.opennet.ru/",
+      "id": 71
+    },
+    {
+      "title": "The Lancet",
+      "comm": "",
+      "body": "",
+      "url": "https://www.thelancet.com/",
+      "id": 72
+    },
+    {
+      "title": "Sputnik.by",
+      "comm": "",
+      "body": "",
+      "url": "https://sputnik.by/",
+      "id": 73
+    },
+    {
+      "title": "StudFile.net",
+      "comm": "файловый архив для студентов",
+      "body": "",
+      "url": "https://studfile.net/",
+      "id": 74
+    },
+    {
+      "title": "Мозг",
+      "comm": "",
+      "body": "",
+      "url": "https://www.artlebedev.ru/everything/brain/",
+      "id": 75
+    },
+    {
+      "title": "Сайт Артемия Лебедева",
+      "comm": "",
+      "body": "",
+      "url": "https://www.artlebedev.ru/",
+      "id": 76
+    },
+    {
+      "title": "ЛитРес",
+      "comm": "",
+      "body": "",
+      "url": "https://www.litres.ru/",
+      "id": 77
+    },
+    {
+      "title": "ChatRulette",
+      "comm": "",
+      "body": "",
+      "url": "https://v2.chatroulette.com/",
+      "id": 78
+    },
+    {
+      "title": "ProductHunt",
+      "comm": "",
+      "body": "",
+      "url": "https://www.producthunt.com/",
+      "id": 79
+    },
+    {
+      "title": "Карта ДТП",
+      "comm": "",
+      "body": "",
+      "url": "https://dtp-stat.ru/",
+      "id": 80
+    },
+    {
+      "title": "FlightRadar",
+      "comm": "",
+      "body": "",
+      "url": "https://www.flightradar24.com/34.71,136.03/6",
+      "id": 81
+    },
+    {
+      "title": "ComputerUniverse",
+      "comm": "",
+      "body": "",
+      "url": "https://www.computeruniverse.net/ru/",
+      "id": 82
+    },
+    {
+      "title": "StarLadder",
+      "comm": "",
+      "body": "",
+      "url": "https://starladder.com/ru",
+      "id": 83
+    },
+    {
+      "title": "VamDoDoma",
+      "comm": "федеральная доставка товаров из IKEA и OBI",
+      "body": "",
+      "url": "https://vamdodoma.ru/yaroslavl/",
+      "id": 84
+    },
+    {
+      "title": "Российская Национальная Библиотека",
+      "comm": "",
+      "body": "",
+      "url": "http://nlr.ru/",
+      "id": 85
+    },
+    {
+      "title": "Wink",
+      "comm": "",
+      "body": "",
+      "url": "https://wink.rt.ru/",
+      "id": 86
+    },
+    {
+      "title": "Planeta.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://planeta.ru/",
+      "id": 87
+    },
+    {
+      "title": "Boomstarter",
+      "comm": "краудфандинговая платформа",
+      "body": "",
+      "url": "https://boomstarter.ru/",
+      "id": 88
+    },
+    {
+      "title": "Reddit",
+      "comm": "",
+      "body": "",
+      "url": "https://www.reddit.com/",
+      "id": 89
+    },
+    {
+      "title": "ImgFlip",
+      "comm": "весёлые картинки",
+      "body": "",
+      "url": "https://imgflip.com/",
+      "id": 90
+    },
+    {
+      "title": "FileExamples.com",
+      "comm": "примеры файлов",
+      "body": "",
+      "url": "https://file-examples.com/",
+      "id": 91
+    },
+    {
+      "title": "ThankYou.ru",
+      "comm": "",
+      "body": "",
+      "url": "http://thankyou.ru/",
+      "id": 92
+    },
+    {
+      "title": "Московский Зоопарк",
+      "comm": "",
+      "body": "",
+      "url": "https://www.moscowzoo.ru/",
+      "id": 93
+    },
+    {
+      "title": "Radiooooo.com",
+      "comm": "выбираешь года и слушаешь музыку этих лет",
+      "body": "",
+      "url": "https://radiooooo.com/",
+      "id": 94
+    },
+    {
+      "title": "Dribbble",
+      "comm": "работы дизайнеров",
+      "body": "",
+      "url": "https://dribbble.com/",
+      "id": 95
     }
   ]
 }

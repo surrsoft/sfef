@@ -2,6 +2,9 @@
     <div id="app">
         <h1>APP</h1>
         <router-link to="/">Home</router-link>
+        | <router-link to="/cards/1">Cards</router-link>
+        | <router-link to="/cardRandom">Random</router-link>
+        | <router-link to="/cardadd">Add card</router-link>
         <hr />
         <router-view />
     </div>
