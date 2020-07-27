@@ -5,32 +5,37 @@
         <div class="cardBody">{{card.body}}</div>
         <div v-if="card.url" v-html="mtUrl"></div>
         <div class="idn">id: {{card.id}}</div>
-        <div class="btnx-blk">
-            <b-button
-                    class="btnx btnx__delete"
-                    v-on:click="$emit('card-remove', card.id)"
-                    variant="outline-primary"
-                    size="sm"
-            >Delete
-            </b-button>
-            <b-button
-                    class="btnx"
-                    v-on:click="$emit('card-edit', card.id)"
-                    variant="outline-primary"
-                    size="sm"
-            >Edit
-            </b-button>
-        </div>
+        <SteBtnCloseB
+                v-on:card-edit-2="cardEditHandle"
+                v-on:card-delete-2="cardDeleteHandle"
+                v-bind:card="card"
+        />
+
     </div>
 </template>
 
 <script>
+  import SteBtnCloseB from './SteBtnCloseB';
+  import * as Utils from "../utils/Utils";
+
   export default {
     name: "Card",
     props: ['card'],
     computed: {
       mtUrl() {
         return `<a class="card-link" href="${this.card.url}" target="_blank">${this.card.url}</a>`
+      }
+    },
+    components: {
+      SteBtnCloseB,
+    },
+    methods: {
+      cardEditHandle(){
+        console.log(`!!-!!-!! -> cardEditHandle() {200719195541}:${Date.now()}`); // del+
+        Utils.cardEditTo(this, this.card.id);
+      },
+      cardDeleteHandle(){
+        this.$emit('card-remove', this.card.id);
       }
     }
   }
@@ -57,7 +62,7 @@
 
     .btnx {
         border-radius: 6px;
-        margin: 0px 5px 0px 5px;
+        margin: 0 5px 0 5px;
     }
 
     .btnx-blk {

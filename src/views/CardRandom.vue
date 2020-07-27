@@ -1,7 +1,12 @@
 <template>
     <div>
-        <button @click="go">Update</button>
-        <Card v-if="cardCount" v-bind:card="card"/>
+        <b-button variant="outline-primary" @click="go">Update</b-button>
+        <Card
+                v-if="cardCount"
+                v-bind:card="card"
+                v-on:card-edit="cardEditHandle"
+                v-on:card-remove="cardRemoveHandle"
+        />
         <p v-else>No cards</p>
     </div>
 </template>
@@ -11,6 +16,7 @@
   import CardsApi from "../CardsApi";
   import c from "../consts";
   import { TNumber } from 'xrsu';
+  import * as Utils from "../utils/Utils";
 
   export default {
     data() {
@@ -48,6 +54,15 @@
         } else {
           this.$toast.open({ ...c.other.toastOj, message: countOj.errorMessage, type: 'error' });
         }
+      },
+      cardEditHandle(id) {
+        console.log(`!!-!!-!! -> cardEditHandle() {200719185749}:${Date.now()}`); // del+
+        console.log('!!-!!-!! id {200719185741}\n', id); // del+
+        Utils.cardEditTo(this, id);
+      },
+      cardRemoveHandle(id){
+        Utils.cardRemove(this, id);
+        this.go();
       }
     },
     components: {

@@ -19,6 +19,7 @@
 <script>
   import Card from './Card'
   import Paginate from './Paginate';
+  import * as Utils from "../utils/Utils";
 
   export default {
     name: "CardList",
@@ -40,8 +41,7 @@
         this.$emit('pag-page-change', pageNum);
       },
       cardEditHandle(id) {
-        console.log(`!!-!!-!! -> cardEditHandle(); id [${id}]; {200715075430}:${Date.now()}`); // del+
-        this.$router.push('/cardedit/'+id);
+        Utils.cardEditTo(this, id);
       }
     }
   }

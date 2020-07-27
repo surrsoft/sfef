@@ -3,14 +3,14 @@
     {
       "id": 19,
       "title": "Российская газета",
-      "body": "body1",
+      "body": "",
       "url": "https://rg.ru"
     },
     {
       "id": 23,
       "title": "Коммерсант",
       "comm": "comment",
-      "body": "body",
+      "body": "",
       "url": "https://www.kommersant.ru/"
     },
     {
@@ -161,11 +161,11 @@
       "id": 64
     },
     {
+      "id": 65,
       "title": "The Bell",
-      "comm": "",
+      "comm": "{ru}",
       "body": "",
-      "url": "https://thebell.io/",
-      "id": 65
+      "url": "https://thebell.io/"
     },
     {
       "title": "Стихи.ру",
@@ -182,11 +182,11 @@
       "id": 67
     },
     {
+      "id": 68,
       "title": "Правда Гомель",
-      "comm": "",
+      "comm": "провластный ресурс",
       "body": "",
-      "url": "https://gp.by/",
-      "id": 68
+      "url": "https://gp.by/"
     },
     {
       "title": "Сильные Новости",
@@ -376,6 +376,580 @@
       "body": "",
       "url": "https://dribbble.com/",
       "id": 95
+    },
+    {
+      "title": "soundaround.me",
+      "comm": "",
+      "body": "",
+      "url": "http://soundaround.me/",
+      "id": 97
+    },
+    {
+      "title": "zoomquilt.org",
+      "comm": "бесконечный зум картинки",
+      "body": "",
+      "url": "https://zoomquilt.org/",
+      "id": 98
+    },
+    {
+      "title": "videomapia.org",
+      "comm": "",
+      "body": "",
+      "url": "http://videomapia.org/",
+      "id": 99
+    },
+    {
+      "title": "teenslang.su",
+      "comm": "словарь сленга молодежи",
+      "body": "",
+      "url": "https://teenslang.su/",
+      "id": 100
+    },
+    {
+      "title": "http://copout.me/",
+      "comm": "сервис генерирования отмазок",
+      "body": "",
+      "url": "http://copout.me/",
+      "id": 101
+    },
+    {
+      "title": "pazlodrom.ru",
+      "comm": "пазлы онлайн",
+      "body": "",
+      "url": "https://pazlodrom.ru/",
+      "id": 102
+    },
+    {
+      "title": "chtoes.li",
+      "comm": "серьёзные ответы на абсурдные вопросы",
+      "body": "",
+      "url": "https://chtoes.li/",
+      "id": 103
+    },
+    {
+      "title": "\"Память народа\"",
+      "comm": "поиск документов о Героях Войны",
+      "body": "",
+      "url": "https://pamyat-naroda.ru/",
+      "id": 104
+    },
+    {
+      "title": "hudognik.net",
+      "comm": "интернет-магазин картин",
+      "body": "",
+      "url": "https://hudognik.net/",
+      "id": 105
+    },
+    {
+      "title": "rede.guru",
+      "comm": "случайные мысли, цитаты",
+      "body": "",
+      "url": "http://www.rede.guru/ru/index.html",
+      "id": 106
+    },
+    {
+      "title": "lamptest.ru",
+      "comm": "результаты тестирования светодиодных ламп",
+      "body": "",
+      "url": "https://lamptest.ru/",
+      "id": 107
+    },
+    {
+      "title": "fasie.ru",
+      "comm": "Фонд содействия инновациям",
+      "body": "",
+      "url": "http://fasie.ru/",
+      "id": 108
+    },
+    {
+      "title": "rsload.net",
+      "comm": "бесплатные программы",
+      "body": "",
+      "url": "https://rsload.net/",
+      "id": 109
+    },
+    {
+      "title": "metanit.com",
+      "comm": "сайт о программировании",
+      "body": "",
+      "url": "https://metanit.com/",
+      "id": 110
+    },
+    {
+      "title": "mubert.com",
+      "comm": "генератор музыки",
+      "body": "",
+      "url": "https://mubert.com/",
+      "id": 111
+    },
+    {
+      "title": "refactoring.guru",
+      "comm": "о паттернах проектирования",
+      "body": "",
+      "url": "https://refactoring.guru/ru",
+      "id": 112
+    },
+    {
+      "title": "proglib.io",
+      "comm": "",
+      "body": "",
+      "url": "https://proglib.io/",
+      "id": 113
+    },
+    {
+      "title": "tech-geek.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://tech-geek.ru/",
+      "id": 114
+    },
+    {
+      "title": "kotlin.ohandroid.com",
+      "comm": "",
+      "body": "",
+      "url": "http://kotlin.ohandroid.com/",
+      "id": 115
+    },
+    {
+      "title": "tproger.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://tproger.ru/",
+      "id": 116
+    },
+    {
+      "title": "news.itmo.ru",
+      "comm": "новости университета ИТМО",
+      "body": "",
+      "url": "https://news.itmo.ru/ru/",
+      "id": 117
+    },
+    {
+      "title": "habr.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://habr.com/",
+      "id": 118
+    },
+    {
+      "title": "dev.by",
+      "comm": "",
+      "body": "",
+      "url": "https://dev.by/",
+      "id": 119
+    },
+    {
+      "title": "techrocks.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://techrocks.ru/",
+      "id": 120
+    },
+    {
+      "title": "16personalities.com",
+      "comm": "психотипы",
+      "body": "",
+      "url": "https://www.16personalities.com/ru",
+      "id": 121
+    },
+    {
+      "title": "\"Хороший программист\"",
+      "comm": "онлайн-курсы по программированию",
+      "body": "",
+      "url": "https://goodprogrammer.ru/",
+      "id": 122
+    },
+    {
+      "title": "DZone",
+      "comm": "{en} новости ИТ",
+      "body": "",
+      "url": "https://dzone.com/",
+      "id": 123
+    },
+    {
+      "title": "devSchacht",
+      "comm": "подкаст, переводы, веб-разработка",
+      "body": "",
+      "url": "https://medium.com/devschacht",
+      "id": 124
+    },
+    {
+      "title": "servernews.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.servernews.ru/",
+      "id": 125
+    },
+    {
+      "title": "\"Известия\"",
+      "comm": "",
+      "body": "",
+      "url": "https://iz.ru/",
+      "id": 126
+    },
+    {
+      "title": "\"Взгляд\"",
+      "comm": "деловая газета (прокремлёвская)",
+      "body": "",
+      "url": "https://vz.ru/",
+      "id": 127
+    },
+    {
+      "title": "\"Вечерняя Москва\"",
+      "comm": "",
+      "body": "",
+      "url": "https://vm.ru/",
+      "id": 128
+    },
+    {
+      "title": "news.mail.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://news.mail.ru/",
+      "id": 129
+    },
+    {
+      "title": "newsru.com",
+      "comm": "",
+      "body": "",
+      "url": "https://www.newsru.com/",
+      "id": 130
+    },
+    {
+      "title": "Mediametrics",
+      "comm": "",
+      "body": "",
+      "url": "https://mediametrics.ru/rating/ru/online.html",
+      "id": 131
+    },
+    {
+      "title": "\"Эхо Москвы\"",
+      "comm": "",
+      "body": "",
+      "url": "https://echo.msk.ru/",
+      "id": 132
+    },
+    {
+      "title": "newsland.com",
+      "comm": "",
+      "body": "",
+      "url": "https://newsland.com/",
+      "id": 133
+    },
+    {
+      "title": "patriarchia.ru",
+      "comm": "официальный сайт РПЦ",
+      "body": "",
+      "url": "http://www.patriarchia.ru/",
+      "id": 134
+    },
+    {
+      "title": "news.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://news.ru/",
+      "id": 135
+    },
+    {
+      "title": "Rambler news",
+      "comm": "",
+      "body": "",
+      "url": "https://rns.online/",
+      "id": 136
+    },
+    {
+      "title": "Rambler новости",
+      "comm": "",
+      "body": "",
+      "url": "https://www.rambler.ru/",
+      "id": 137
+    },
+    {
+      "title": "Ридус",
+      "comm": "",
+      "body": "",
+      "url": "https://www.ridus.ru/",
+      "id": 138
+    },
+    {
+      "title": "Медиазона",
+      "comm": "",
+      "body": "",
+      "url": "https://zona.media/",
+      "id": 139
+    },
+    {
+      "title": "3DNews",
+      "comm": "",
+      "body": "",
+      "url": "https://3dnews.ru/",
+      "id": 140
+    },
+    {
+      "title": "Интерфакс",
+      "comm": "",
+      "body": "",
+      "url": "https://www.interfax.ru/",
+      "id": 141
+    },
+    {
+      "title": "Telecom Daily",
+      "comm": "{ru}",
+      "body": "",
+      "url": "http://tdaily.ru/",
+      "id": 142
+    },
+    {
+      "title": "deita.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://deita.ru/",
+      "id": 143
+    },
+    {
+      "title": "on-planet.ru",
+      "comm": "Донбасс",
+      "body": "",
+      "url": "http://on-planet.ru/",
+      "id": 144
+    },
+    {
+      "title": "\"Спектр\"",
+      "comm": "новости",
+      "body": "",
+      "url": "https://spektr.press/",
+      "id": 145
+    },
+    {
+      "title": "Инфореактор",
+      "comm": "",
+      "body": "",
+      "url": "https://inforeactor.ru/",
+      "id": 146
+    },
+    {
+      "title": "ИноСМИ",
+      "comm": "",
+      "body": "",
+      "url": "https://inosmi.ru/",
+      "id": 147
+    },
+    {
+      "title": "УНИАН",
+      "comm": "новости Украины",
+      "body": "",
+      "url": "https://www.unian.net/",
+      "id": 148
+    },
+    {
+      "title": "RT",
+      "comm": "",
+      "body": "",
+      "url": "https://russian.rt.com/",
+      "id": 149
+    },
+    {
+      "title": "roem.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://roem.ru/",
+      "id": 150
+    },
+    {
+      "title": "Телеканал \"Дождь\"",
+      "comm": "",
+      "body": "",
+      "url": "https://tvrain.ru/",
+      "id": 151
+    },
+    {
+      "title": "Instagram",
+      "comm": "",
+      "body": "",
+      "url": "https://www.instagram.com/",
+      "id": 152
+    },
+    {
+      "title": "\"Нож\"",
+      "comm": "интеллектуальный журнал",
+      "body": "",
+      "url": "https://knife.media/",
+      "id": 153
+    },
+    {
+      "title": "issuu.com",
+      "comm": "",
+      "body": "",
+      "url": "https://issuu.com/",
+      "id": 154
+    },
+    {
+      "title": "demotivation.me",
+      "comm": "",
+      "body": "",
+      "url": "http://demotivation.me/",
+      "id": 155
+    },
+    {
+      "title": "iphones.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.iphones.ru/",
+      "id": 156
+    },
+    {
+      "title": "otvet.mail.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://otvet.mail.ru/",
+      "id": 157
+    },
+    {
+      "title": "Twitter",
+      "comm": "",
+      "body": "",
+      "url": "https://twitter.com/",
+      "id": 158
+    },
+    {
+      "title": "mobileimho.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://mobileimho.ru/",
+      "id": 159
+    },
+    {
+      "title": "\"Дилетант\"",
+      "comm": "",
+      "body": "",
+      "url": "https://diletant.media/",
+      "id": 160
+    },
+    {
+      "title": "rewizor.ru",
+      "comm": "",
+      "body": "",
+      "url": "http://www.rewizor.ru/",
+      "id": 161
+    },
+    {
+      "title": "N+1",
+      "comm": "наука",
+      "body": "",
+      "url": "https://nplus1.ru/",
+      "id": 162
+    },
+    {
+      "title": "ПостНаука",
+      "comm": "наука",
+      "body": "",
+      "url": "https://postnauka.ru/",
+      "id": 163
+    },
+    {
+      "id": 164,
+      "title": "Викитека",
+      "comm": "наука",
+      "body": "",
+      "url": "https://ru.wikisource.org/wiki/"
+    },
+    {
+      "title": "Википедия",
+      "comm": "",
+      "body": "",
+      "url": "https://ru.wikipedia.org",
+      "id": 165
+    },
+    {
+      "title": "arzamas.academy",
+      "comm": "",
+      "body": "",
+      "url": "https://arzamas.academy/",
+      "id": 166
+    },
+    {
+      "title": "The Challenger",
+      "comm": "",
+      "body": "",
+      "url": "https://the-challenger.ru/",
+      "id": 167
+    },
+    {
+      "title": "pikabu.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://pikabu.ru/",
+      "id": 168
+    },
+    {
+      "title": "Телепорт в случайные места",
+      "comm": "",
+      "body": "",
+      "url": "http://www.ediscover.ru/teleport/",
+      "id": 169
+    },
+    {
+      "title": "expert.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://expert.ru/",
+      "id": 170
+    },
+    {
+      "title": "sport24",
+      "comm": "",
+      "body": "",
+      "url": "https://sport24.ru/",
+      "id": 171
+    },
+    {
+      "title": "BBC",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://www.bbc.com/news",
+      "id": 172
+    },
+    {
+      "title": "Financial Times",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://www.ft.com/",
+      "id": 173
+    },
+    {
+      "title": "CNN",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://edition.cnn.com/",
+      "id": 174
+    },
+    {
+      "title": "The New Yourk Times",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://www.nytimes.com/",
+      "id": 175
+    },
+    {
+      "title": "ru.euronews.com",
+      "comm": "",
+      "body": "",
+      "url": "https://ru.euronews.com/",
+      "id": 176
+    },
+    {
+      "title": "1",
+      "comm": "",
+      "body": "",
+      "url": "",
+      "id": 177
+    },
+    {
+      "title": "vesti.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.vesti.ru/",
+      "id": 178
     }
   ]
 }

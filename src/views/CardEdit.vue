@@ -14,7 +14,7 @@
             <label> URL:
                 <input type="text" v-model="url">
             </label>
-            <button type="submit">Save</button>
+            <b-button variant="outline-primary" type="submit">Save</b-button>
         </form>
     </div>
 </template>

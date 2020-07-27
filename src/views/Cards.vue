@@ -1,9 +1,6 @@
 <template>
     <div>
         <h2>Cards ({{pagTotalCount}})</h2>
-        <div>
-            <button v-on:click="cardAddHandle">New card</button>
-        </div>
         <div v-if="loading" class="loading">Загрузка ...</div>
         <div v-if="error" class="errorMsg">{{error}}</div>
         <CardList
@@ -15,6 +12,8 @@
                 v-on:card-remove="cardRemoveHandle"
                 v-on:pag-page-change="pagPageChangeHandle"
         />
+
+
     </div>
 </template>
 
@@ -22,6 +21,7 @@
   import CardList from '../components/CardList'
   import CardsApi from '../CardsApi'
   import c from '../consts';
+  import * as Utils from "../utils/Utils";
 
   export default {
     name: 'App',
@@ -88,7 +88,7 @@
       next();
     },
     methods: {
-      onStart(){
+      onStart() {
         console.log(`!!-!!-!! -> onStart() {200717172531}:${Date.now()}`); // del+
         this.cards = this.cardsGet();
       },
@@ -117,16 +117,9 @@
       },
       cardRemoveHandle(id) {
         console.log('!!-!!-!! id {200714101858}\n', id); // del+
-        CardsApi.cardDelete(id)
-          .then(r => {
-            console.log('!!-!!-!! r {200714102341}\n', r); // del+
-            if (!r.errorMessage) {
-              this.$toast.open({ ...c.other.toastOj, message: 'deleted' });
-              // ---
-              this.cardsGet();
-            } else {
-              this.$toast.open({ ...c.other.toastOj, message: r.errorMessage, type: 'error' });
-            }
+        Utils.cardRemove(this, id)
+          .then(() => {
+            this.cardsGet();
           })
       },
       pagPageChangeHandle(pageNum) {
