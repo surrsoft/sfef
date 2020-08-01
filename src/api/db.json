@@ -273,11 +273,11 @@
       "id": 80
     },
     {
+      "id": 81,
       "title": "FlightRadar",
       "comm": "",
       "body": "",
-      "url": "https://www.flightradar24.com/34.71,136.03/6",
-      "id": 81
+      "url": "https://www.flightradar24.com/"
     },
     {
       "title": "ComputerUniverse",
@@ -406,11 +406,11 @@
       "id": 100
     },
     {
-      "title": "http://copout.me/",
+      "id": 101,
+      "title": "copout.me",
       "comm": "сервис генерирования отмазок",
       "body": "",
-      "url": "http://copout.me/",
-      "id": 101
+      "url": "http://copout.me/"
     },
     {
       "title": "pazlodrom.ru",
@@ -950,6 +950,258 @@
       "body": "",
       "url": "https://www.vesti.ru/",
       "id": 178
+    },
+    {
+      "title": "phys.org",
+      "comm": "{en}, наука",
+      "body": "",
+      "url": "https://phys.org/",
+      "id": 179
+    },
+    {
+      "title": "Сайт администрации Рыбинска",
+      "comm": "",
+      "body": "",
+      "url": "http://rybinsk.ru/",
+      "id": 180
+    },
+    {
+      "title": "developerslife.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://developerslife.ru/",
+      "id": 181
+    },
+    {
+      "title": "ФСБ, новости",
+      "comm": "",
+      "body": "",
+      "url": "http://www.fsb.ru/fsb/press.htm",
+      "id": 182
+    },
+    {
+      "title": "Хауди Хо (t.me)",
+      "comm": "о программировании",
+      "body": "",
+      "url": "https://t.me/howdyho_official",
+      "id": 183
+    },
+    {
+      "title": "life.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://life.ru/",
+      "id": 184
+    },
+    {
+      "title": "xkcd.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://xkcd.ru/",
+      "id": 185
+    },
+    {
+      "title": "ura.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://ura.news/",
+      "id": 186
+    },
+    {
+      "title": "Яндекс.Новости",
+      "comm": "",
+      "body": "",
+      "url": "https://yandex.ru/news/",
+      "id": 187
+    },
+    {
+      "title": "Портал органов государственной власти Ярославской области",
+      "comm": "",
+      "body": "",
+      "url": "https://www.yarregion.ru/",
+      "id": 188
+    },
+    {
+      "title": "Discover24",
+      "comm": "",
+      "body": "",
+      "url": "https://discover24.ru/",
+      "id": 189
+    },
+    {
+      "title": "ТАСС",
+      "comm": "",
+      "body": "",
+      "url": "https://tass.ru/",
+      "id": 190
+    },
+    {
+      "title": "Городовой",
+      "comm": "",
+      "body": "",
+      "url": "https://www.gorodovoy.spb.ru/",
+      "id": 191
+    },
+    {
+      "title": "BFM.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.bfm.ru/",
+      "id": 192
+    },
+    {
+      "title": "Слово и Дело",
+      "comm": "",
+      "body": "",
+      "url": "https://slovodel.com/569889-serial-hraniteli-stal-liderom-po-chislu-nominacii-na-premiyu-emmi",
+      "id": 193
+    },
+    {
+      "title": "Piter.tv",
+      "comm": "",
+      "body": "",
+      "url": "https://piter.tv/",
+      "id": 194
+    },
+    {
+      "title": "abnews.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://abnews.ru/",
+      "id": 195
+    },
+    {
+      "title": "Игромания",
+      "comm": "",
+      "body": "",
+      "url": "https://www.igromania.ru/",
+      "id": 196
+    },
+    {
+      "title": "The Geek",
+      "comm": "",
+      "body": "",
+      "url": "https://the-geek.ru/",
+      "id": 197
+    },
+    {
+      "title": "evo-rus.com",
+      "comm": "",
+      "body": "",
+      "url": "https://evo-rus.com/",
+      "id": 198
+    },
+    {
+      "title": "Дилетант",
+      "comm": "",
+      "body": "",
+      "url": "https://diletant.media/",
+      "id": 199
+    },
+    {
+      "title": "motor.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://motor.ru/",
+      "id": 200
+    },
+    {
+      "title": "autospot.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://autospot.ru/",
+      "id": 201
+    },
+    {
+      "title": "njcar.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.njcar.ru/",
+      "id": 202
+    },
+    {
+      "title": "speedme.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://speedme.ru/",
+      "id": 203
+    },
+    {
+      "title": "аналитическое агенство Автостат",
+      "comm": "",
+      "body": "",
+      "url": "https://www.autostat.ru/",
+      "id": 204
+    },
+    {
+      "title": "Движок",
+      "comm": "",
+      "body": "",
+      "url": "https://dvizhok.su/",
+      "id": 205
+    },
+    {
+      "title": "tarantas.news",
+      "comm": "",
+      "body": "",
+      "url": "https://tarantas.news/",
+      "id": 206
+    },
+    {
+      "title": "Автокадабра",
+      "comm": "",
+      "body": "",
+      "url": "https://autokadabra.ru/clubs",
+      "id": 207
+    },
+    {
+      "title": "drom.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.drom.ru/",
+      "id": 208
+    },
+    {
+      "title": "car.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://car.ru/",
+      "id": 209
+    },
+    {
+      "title": "Грузовики и дороги",
+      "comm": "",
+      "body": "",
+      "url": "http://truckandroad.ru/",
+      "id": 210
+    },
+    {
+      "title": "carprice.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.carprice.ru/",
+      "id": 211
+    },
+    {
+      "title": "Крути мотор",
+      "comm": "",
+      "body": "",
+      "url": "http://krutimotor.ru/",
+      "id": 212
+    },
+    {
+      "title": "Блог Vue",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://news.vuejs.org/",
+      "id": 213
+    },
+    {
+      "title": "hackernews",
+      "comm": "",
+      "body": "",
+      "url": "https://news.ycombinator.com/",
+      "id": 214
     }
   ]
 }

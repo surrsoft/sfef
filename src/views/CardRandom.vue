@@ -37,6 +37,12 @@
       async go() {
         const countOj = await CardsApi.cardsAllCountGet();
         console.log('!!-!!-!! countOj {200717205734}\n', countOj); // del+
+        // ---
+        // console.log('!!-!!-!! this {200731215856}\n', this) // del+
+        // Vue.oxwk.countAllSet(countOj)
+        // const rnd  = Vue.oxwk.next()
+        // console.log('!!-!!-!! rnd {200731215126}\n', rnd) // del+
+        // ---
         if (!countOj.errorMessage) {
           const count = countOj.count;
           this.cardCount = count;
