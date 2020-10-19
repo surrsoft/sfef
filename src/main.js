@@ -8,11 +8,11 @@ import 'vue-toast-notification/dist/theme-default.css';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-// import { Oxwk } from './utils/oxwk';
+import { Oxwk } from './utils/oxwk';
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
-// Vue.use(Oxwk)
+Vue.use(Oxwk)
 
 // ---
 Vue.config.productionTip = false

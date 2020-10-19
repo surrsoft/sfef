@@ -17,7 +17,6 @@ server.use('/cards', (req, res, next) => {
     console.log('br- req.body', req.body) // del+
     const body = req.body || {};
     if (!body.title) {
-      console.log(`!!-!!-!! -> !body.title {200713184556}:${Date.now()}`); // del+
       res.status(500).send('ERR*: title is empty');
     }
   }

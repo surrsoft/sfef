@@ -17,9 +17,9 @@
         </b-button>
 
         <b-modal
-                id="'modal-'+card.id"
+                :id="'modal-'+card.id"
                 title="Deleting"
-                v-on:ok=""
+                v-on:ok="okHandle"
         >Are you sure?
         </b-modal>
     </div>
@@ -28,6 +28,9 @@
 <script>
   export default {
     props: ['card'],
+    created() {
+      console.log('!!-!!-!! this.card {200809000251}\n', JSON.stringify(this.card, null, 2)) // del+
+    },
     methods: {
       okHandle() {
         console.log(`!!-!!-!! -> okHandle() {200720145612}:${Date.now()}`); // del+

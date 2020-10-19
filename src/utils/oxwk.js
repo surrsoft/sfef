@@ -12,29 +12,51 @@ export class Oxwk {
   }
 
   // plugin
-  static install(Vue){
-    console.log(`!!-!!-!! -> :::::::::::::: install() {200731220103}:${Date.now()}`) // del+
-    Vue.oxwk = new Oxwk()
+  static install(vue) {
+    console.log(`!!-!!-!! 010 -> :::::::::::::: install() {200731220103}:${Date.now()}`) // del+
+    vue.oxwk = new Oxwk()
   }
 
-  countAllSet(count){
-    this.countAll = count
+  countAllSet(count) {
+    if (count) {
+      this.countAll = count
+    }
+  }
+
+  countMarkedGet() {
+    return this.marked.length
   }
 
   // следующая позиция, случайное число в диапазоне 1..this.countAll, исключая this.marked
   next() {
-    if(this.countAll > 0) {
-      return random(1, this.countAll)
+    console.log(`!!-!!-!! 010 -> :::::::::::::: next() {200801170624}:${Date.now()}`) // del+
+    console.log('!!-!!-!! 020 this.countAll {200801170633}\n', this.countAll) // del+
+    if (this.countAll > 0 && (this.marked.length < this.countAll)) {
+      let rnd = 0;
+      do {
+        rnd = random(1, this.countAll)
+      } while (this.isMarked(rnd))
+      this.marked.push(rnd)
+      console.log('!!-!!-!! this.marked {200801195047}\n', this.marked) // del+
+      return rnd
     }
     return 0
   }
+
+
+  isMarked(pos) {
+    return this.marked.indexOf(pos) !== -1
+  }
+
   mark(id) {
 
   }
-  unmark(id){
+
+  unmark(id) {
 
   }
-  unmarkAll(){
+
+  unmarkAll() {
 
   }
 

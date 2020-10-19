@@ -8,6 +8,7 @@
                 v-on:card-remove="cardRemoveHandle"
         />
         <p v-else>No cards</p>
+        <p>{{ cardMarkedCount }} / {{ cardCount }}</p>
     </div>
 </template>
 
@@ -15,8 +16,8 @@
   import Card from '../components/Card';
   import CardsApi from "../CardsApi";
   import c from "../consts";
-  import { TNumber } from 'xrsu';
   import * as Utils from "../utils/Utils";
+  import Vue from 'vue';
 
   export default {
     data() {
@@ -28,6 +29,7 @@
           url: null
         },
         cardCount: 0,
+        cardMarkedCount: 0
       }
     },
     created() {
@@ -38,16 +40,16 @@
         const countOj = await CardsApi.cardsAllCountGet();
         console.log('!!-!!-!! countOj {200717205734}\n', countOj); // del+
         // ---
-        // console.log('!!-!!-!! this {200731215856}\n', this) // del+
-        // Vue.oxwk.countAllSet(countOj)
-        // const rnd  = Vue.oxwk.next()
-        // console.log('!!-!!-!! rnd {200731215126}\n', rnd) // del+
+        Vue.oxwk.countAllSet(countOj.count)
         // ---
         if (!countOj.errorMessage) {
           const count = countOj.count;
           this.cardCount = count;
           if (count > 0) {
-            const random = TNumber.random(count - 1);
+            // const random = TNumber.random(count - 1);
+            const random = Vue.oxwk.next()
+            console.log('!!-!!-!! random {200731215126}\n', random) // del+
+            this.cardMarkedCount = Vue.oxwk.countMarkedGet()
             // ---
             const r = await CardsApi.cardByNumberGet(random);
             console.log('!!-!!-!! r {200717205743}\n', r); // del+
@@ -66,7 +68,7 @@
         console.log('!!-!!-!! id {200719185741}\n', id); // del+
         Utils.cardEditTo(this, id);
       },
-      cardRemoveHandle(id){
+      cardRemoveHandle(id) {
         Utils.cardRemove(this, id);
         this.go();
       }

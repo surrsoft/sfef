@@ -1202,6 +1202,419 @@
       "body": "",
       "url": "https://news.ycombinator.com/",
       "id": 214
+    },
+    {
+      "title": "BBS Россия",
+      "comm": "",
+      "body": "",
+      "url": "https://www.bbc.com/russian",
+      "id": 215
+    },
+    {
+      "title": "Новости Крыма",
+      "comm": "",
+      "body": "",
+      "url": "https://news.allcrimea.net/",
+      "id": 216
+    },
+    {
+      "title": "ГИБДД.рф",
+      "comm": "",
+      "body": "",
+      "url": "https://xn--90adear.xn--p1ai/",
+      "id": 217
+    },
+    {
+      "title": "pixabay",
+      "comm": "потрясающие бесплатные изображения",
+      "body": "",
+      "url": "https://pixabay.com/ru/",
+      "id": 218
+    },
+    {
+      "title": "znak.com",
+      "comm": "",
+      "body": "",
+      "url": "https://www.znak.com/",
+      "id": 219
+    },
+    {
+      "title": "yar.kp.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.yar.kp.ru/",
+      "id": 220
+    },
+    {
+      "title": "Google Developers",
+      "comm": "",
+      "body": "",
+      "url": "https://developers.google.com/",
+      "id": 221
+    },
+    {
+      "title": "web.dev",
+      "comm": "",
+      "body": "",
+      "url": "https://web.dev/",
+      "id": 222
+    },
+    {
+      "title": "russpass.ru",
+      "comm": "продажа туров по России",
+      "body": "",
+      "url": "https://www.russpass.ru/",
+      "id": 223
+    },
+    {
+      "title": "jster.net",
+      "comm": "",
+      "body": "",
+      "url": "http://jster.net/",
+      "id": 224
+    },
+    {
+      "title": "axios.com",
+      "comm": "{en}",
+      "body": "",
+      "url": "https://www.axios.com/",
+      "id": 225
+    },
+    {
+      "title": "NOP",
+      "comm": "",
+      "body": "",
+      "url": "https://nuancesprog.ru/",
+      "id": 226
+    },
+    {
+      "title": "pravo.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://pravo.ru/",
+      "id": 227
+    },
+    {
+      "title": "meduza.io",
+      "comm": "",
+      "body": "",
+      "url": "https://meduza.io/",
+      "id": 228
+    },
+    {
+      "title": "gigarama.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://gigarama.ru/",
+      "id": 229
+    },
+    {
+      "title": "https://pravo.ru/",
+      "comm": "",
+      "body": "",
+      "url": "https://pravo.ru/",
+      "id": 230
+    },
+    {
+      "title": "https://meduza.io/",
+      "comm": "",
+      "body": "",
+      "url": "https://meduza.io/",
+      "id": 231
+    },
+    {
+      "title": "https://gigarama.ru/",
+      "comm": "",
+      "body": "",
+      "url": "https://gigarama.ru/",
+      "id": 232
+    },
+    {
+      "title": "https://www.belta.by/",
+      "comm": "",
+      "body": "",
+      "url": "https://www.belta.by/",
+      "id": 233
+    },
+    {
+      "title": "https://vtimes.io/",
+      "comm": "",
+      "body": "",
+      "url": "https://vtimes.io/",
+      "id": 234
+    },
+    {
+      "title": "https://www.onliner.by/",
+      "comm": "",
+      "body": "",
+      "url": "https://www.onliner.by/",
+      "id": 235
+    },
+    {
+      "title": "https://yar.mk.ru/?noredirect=1",
+      "comm": "",
+      "body": "",
+      "url": "https://yar.mk.ru/?noredirect=1",
+      "id": 236
+    },
+    {
+      "title": "https://svpressa.ru/",
+      "comm": "",
+      "body": "",
+      "url": "https://svpressa.ru/",
+      "id": 237
+    },
+    {
+      "title": "https://www.overclockers.ua/",
+      "comm": "",
+      "body": "",
+      "url": "https://www.overclockers.ua/",
+      "id": 238
+    },
+    {
+      "title": "Хартия 97",
+      "comm": "",
+      "body": "",
+      "url": "https://charter97.org/ru/news/",
+      "id": 239
+    },
+    {
+      "title": "EurAsia Daily",
+      "comm": "",
+      "body": "",
+      "url": "https://eadaily.com/ru/",
+      "id": 240
+    },
+    {
+      "title": "vg.no",
+      "comm": "",
+      "body": "",
+      "url": "https://www.vg.no/",
+      "id": 241
+    },
+    {
+      "title": "Военное обозрение",
+      "comm": "",
+      "body": "",
+      "url": "https://topwar.ru/",
+      "id": 242
+    },
+    {
+      "title": "Политическое обозрение",
+      "comm": "",
+      "body": "",
+      "url": "https://politobzor.net/",
+      "id": 243
+    },
+    {
+      "title": "ПолитНавигатор",
+      "comm": "",
+      "body": "",
+      "url": "https://www.politnavigator.net/",
+      "id": 244
+    },
+    {
+      "title": "Vue Dose",
+      "comm": "",
+      "body": "",
+      "url": "https://vuedose.tips/",
+      "id": 245
+    },
+    {
+      "title": "Телеканал Царь-Град",
+      "comm": "",
+      "body": "",
+      "url": "https://tsargrad.tv/",
+      "id": 246
+    },
+    {
+      "title": "РГАТУ",
+      "comm": "",
+      "body": "",
+      "url": "https://www.rsatu.ru/about_the_university/news/",
+      "id": 247
+    },
+    {
+      "title": "ixbt.com",
+      "comm": "",
+      "body": "",
+      "url": "https://www.ixbt.com/",
+      "id": 248
+    },
+    {
+      "title": "behance.net",
+      "comm": "",
+      "body": "",
+      "url": "https://www.behance.net/",
+      "id": 249
+    },
+    {
+      "title": "css-tricks.com",
+      "comm": "",
+      "body": "",
+      "url": "https://css-tricks.com/",
+      "id": 250
+    },
+    {
+      "title": "Государственный фонд фондов и институт развития венчурного рынка Российской Федерации",
+      "comm": "",
+      "body": "",
+      "url": "https://www.rvc.ru/press-service/news/company/",
+      "id": 251
+    },
+    {
+      "title": "dribbble.com",
+      "comm": "",
+      "body": "",
+      "url": "https://dribbble.com/",
+      "id": 252
+    },
+    {
+      "title": "ЧП ДТП РЫБИНСК",
+      "comm": "",
+      "body": "",
+      "url": "https://vk.com/rybinsk76now",
+      "id": 253
+    },
+    {
+      "title": "sketchfab.com",
+      "comm": "",
+      "body": "",
+      "url": "https://sketchfab.com/",
+      "id": 254
+    },
+    {
+      "title": "Пресс-релизы Сбербанка",
+      "comm": "",
+      "body": "",
+      "url": "https://www.sberbank.ru/ru/press_center/all",
+      "id": 255
+    },
+    {
+      "title": "hacks.mozilla.org",
+      "comm": "",
+      "body": "",
+      "url": "https://hacks.mozilla.org/",
+      "id": 256
+    },
+    {
+      "title": "soundjay.com",
+      "comm": "",
+      "body": "",
+      "url": "https://www.soundjay.com/",
+      "id": 257
+    },
+    {
+      "title": "panorama.pub",
+      "comm": "сайт фейковых новостей",
+      "body": "",
+      "url": "https://panorama.pub/",
+      "id": 258
+    },
+    {
+      "title": "Nuxt.js blog",
+      "comm": "",
+      "body": "",
+      "url": "https://ru.nuxtjs.org/blog/",
+      "id": 259
+    },
+    {
+      "title": "petitions.by",
+      "comm": "",
+      "body": "",
+      "url": "https://petitions.by/",
+      "id": 260
+    },
+    {
+      "title": "The Insider",
+      "comm": "",
+      "body": "",
+      "url": "https://theins.ru/",
+      "id": 261
+    },
+    {
+      "title": "koza.press",
+      "comm": "",
+      "body": "",
+      "url": "http://koza.press/",
+      "id": 262
+    },
+    {
+      "title": "rg.ru США",
+      "comm": "",
+      "body": "",
+      "url": "https://rg.ru/tema/mir/usa/",
+      "id": 263
+    },
+    {
+      "title": "aerotime.aero",
+      "comm": "",
+      "body": "",
+      "url": "https://www.aerotime.aero/",
+      "id": 264
+    },
+    {
+      "title": "Nginx news",
+      "comm": "",
+      "body": "",
+      "url": "http://nginx.org/",
+      "id": 265
+    },
+    {
+      "title": "Свободный Профсоюз Металлистов (Беларусь)",
+      "comm": "",
+      "body": "",
+      "url": "http://www.spm-by.org/",
+      "id": 266
+    },
+    {
+      "title": "Национальная библиотека имени Баумана",
+      "comm": "",
+      "body": "",
+      "url": "https://ru.bmstu.wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+      "id": 267
+    },
+    {
+      "title": "rukv.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://www.rukv.ru/",
+      "id": 268
+    },
+    {
+      "title": "76.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://76.ru/",
+      "id": 269
+    },
+    {
+      "title": "1yar.tv",
+      "comm": "",
+      "body": "",
+      "url": "https://1yar.tv/",
+      "id": 270
+    },
+    {
+      "title": "Рыбинск 40",
+      "comm": "",
+      "body": "",
+      "url": "http://r40.ru/",
+      "id": 271
+    },
+    {
+      "title": "theoutloud.ru",
+      "comm": "",
+      "body": "",
+      "url": "https://theoutloud.ru/",
+      "id": 272
+    },
+    {
+      "title": "ria.ru Наука",
+      "comm": "",
+      "body": "",
+      "url": "https://ria.ru/science/",
+      "id": 273
     }
   ]
 }

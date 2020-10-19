@@ -35,6 +35,7 @@
         Utils.cardEditTo(this, this.card.id);
       },
       cardDeleteHandle(){
+        console.log(`!!-!!-!! -> :::::::::::::: cardDeleteHandle() {200809000013}:${Date.now()}`) // del+
         this.$emit('card-remove', this.card.id);
       }
     }
